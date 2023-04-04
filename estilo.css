@@ -1,0 +1,92 @@
+body{
+    background-color: rgb(202, 236, 193);
+    
+
+}
+nav{
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#f5f6f6+0,dbdce2+21,b8bac6+49,dddfe3+80,f5f6f6+100;Grey+Pipe */
+background: rgb(245,246,246); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(245,246,246,1) 0%, rgba(219,220,226,1) 21%, rgba(184,186,198,1) 49%, rgba(221,223,227,1) 80%, rgba(245,246,246,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(245,246,246,1) 0%,rgba(219,220,226,1) 21%,rgba(184,186,198,1) 49%,rgba(221,223,227,1) 80%,rgba(245,246,246,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(245,246,246,1) 0%,rgba(219,220,226,1) 21%,rgba(184,186,198,1) 49%,rgba(221,223,227,1) 80%,rgba(245,246,246,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5f6f6', endColorstr='#f5f6f6',GradientType=0 ); /* IE6-9 */
+
+}
+section{
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#f6e6b4+0,ed9017+100;Yellow+3D+%231 */
+background: rgb(246,230,180); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(246,230,180,1) 0%, rgba(237,144,23,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(246,230,180,1) 0%,rgba(237,144,23,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(246,230,180,1) 0%,rgba(237,144,23,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f6e6b4', endColorstr='#ed9017',GradientType=0 ); /* IE6-9 */
+
+}
+form{
+    color: white;
+}
+h1{
+    color: white;
+}
+
+@media (min-width: 768px) {
+    section{
+        display: flex;
+        justify-content: center;
+        display: flex;
+        flex-direction: row; 
+        margin: 25px;
+        padding: 25px;
+}
+    #card1{
+        margin: 25px;
+        width: 38%;
+        height: 20%;
+    }
+    #card2{
+        margin: 25px;
+        width: 60%;
+        height: 20%;
+    }
+    .center {
+        margin: auto;
+        width: 50%;
+        border: 3px solid green;
+        padding: 25px;
+    }
+}
+  
+
+  /**/
+
+@media (max-width: 767px - min-width:371px) {
+    section{
+
+        display: flex;
+        
+        justify-content: center;
+        margin: 25px;
+        padding: 25px;
+    }
+        #card1{
+            margin: 25px;
+            width: 40%;
+            height: 20%;
+        }
+        #card2{
+            margin: 25px;
+            width: 60%;
+            height: 20%;
+        }
+}
+@media (max-width: 370px) {
+    section{
+        
+        justify-content: row;
+    }
+    #card1{
+        width: 100%;
+    }
+    #card2{
+        width: 100%;
+    }
+}
